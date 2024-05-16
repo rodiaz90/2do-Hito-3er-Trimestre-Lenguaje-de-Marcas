@@ -1,0 +1,53 @@
+.table-responsive {
+    overflow-x: auto;
+}
+
+#tabla {
+    width: 95%; 
+    border: 2px solid blue; 
+    border-collapse: collapse;
+    margin: 10px auto 10px auto;
+}
+
+#tabla th, #tabla td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tabla th {
+    background-color: #f2f2f2;
+}
+
+#myChart {
+    max-width: 90%; 
+    margin: 0 auto; 
+}
+
+#myChart2 {
+    max-width: 90%; 
+    margin: 0 auto; 
+}
+
+#myChart3 {
+    max-width: 90%; 
+    margin: 0 auto; 
+}
+
+#myChart4{
+    max-width: 90%; 
+    margin: 0 auto; 
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+@media screen {
+    .navbar-nav > li:hover {
+        background-color: rgb(161, 183, 255) !important;
+    } 
+}
